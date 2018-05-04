@@ -1,1 +1,100 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 5%;
+	box-shadow: 5px;
+
+}
+ 
+h1{
+	font-size: 50px;
+	font-family: Raleway;
+}
+
+h2 {
+	margin: 0;
+	text-align: left;
+	font-family: Lato;
+	color: #555;
+	transition: 0.1s;
+	font-size: 20px;
+}
+
+h2:hover{
+	color: #333;
+	cursor: pointer; 
+}
+
+h2:hover .trash{
+	transition: 0.1s;
+}
+
+input {
+	width: 70%;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	border-bottom: 2px solid #555;
+	transition: 0.1s;
+	color: #555;
+	font-family: Raleway;
+}
+
+input:focus, input:hover{
+	width: 75%;
+	border-bottom: 2px solid #333;
+}
+
+.trash { 
+	color: #555;
+	font-size: 20px;
+}
+
+.trash:hover{
+	color: #000;
+}	
+
+.active {
+	text-decoration: line-through;
+	color: #999;
+}
+
+.active:hover{
+	color: #999;
+}
+
+
+
+.xd1{
+	display: inline-block;
+	width: 90%;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.xd2{
+	display: inline;
+	width: 10%;
+	line-height: 40px;
+	height: 40px;
+	overflow: hidden;
+}
